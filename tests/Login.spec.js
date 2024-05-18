@@ -12,13 +12,13 @@ for (const invoice of invoices) {
     //wait 5 seconds
     try {
       // Kiểm tra xem biểu mẫu với id="payForm" có hiển thị trên trang hay không
-      const isPayFormVisible = await page.isVisible('//form[@id="payForm"]');
+      const isPayFormVisible = await page.isVisible('//form[@id="payForm"]',{ timeout: 100000 });
       if (isPayFormVisible) {
         console.log('Trang thanh toan');
         information.page_success++;
       } else {
         // Nếu không tìm thấy biểu mẫu thanh toán, kiểm tra trang "PLEASE WAIT"
-        const isPleaseWaitVisible = await page.isVisible('//h3[contains(text(),"PLEASE WAIT")]');
+        const isPleaseWaitVisible = await page.isVisible('//h3[contains(text(),"PLEASE WAIT")]',{ timeout: 100000 });
         if (isPleaseWaitVisible) {
           console.log('Trang hang doi');
           const content = await page.textContent('p#index');
