@@ -2,7 +2,7 @@ const { test, expect } = require("@playwright/test");
 const accounts = require("../resources/account.json");
 for (const account of accounts) {
   test(`Test with ${account.email}`, async function ({ page }) {
-    await page.goto("http://192.168.100.29:8100/", { timeout: 60000 });
+    await page.goto("http://192.168.100.29:8100/", { timeout: 100000 });
     //wait 5 seconds
 
     //input email
@@ -90,7 +90,7 @@ for (const account of accounts) {
     await page.waitForLoadState("networkidle");
     await page.waitForLoadState("networkidle");
     await page.selectOption('select[ng-reflect-name="player_id"]', {
-      label: "Hnnaa",
+      label: account.name,
     });
     await page.waitForLoadState("networkidle");
     //await page.selectOption('//select[ng-reflect-name="player_id"]', "Hnnaa");
