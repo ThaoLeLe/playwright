@@ -1,10 +1,10 @@
 [
-  { "email": "phu@gmail.com", "password": "12345", "name":"Tre" },
-  { "email": "phu1@gmail.com", "password": "12345", "name":"Thuy" },
-  { "email": "phu2@gmail.com", "password": "12345", "name":"Huyna" },
-  { "email": "phu3@gmail.com", "password": "12345","name":"Ngan" },
-  { "email": "phu4@gmail.com", "password": "12345","name":"Phuong" },
+  { "email": "phu@gmail.com", "password": "12345", "name":"tre" , "link"},
+  { "email": "phu1@gmail.com", "password": "12345","name":"thuy" },
+  { "email": "phu2@gmail.com", "password": "12345","name":"huyna" },
+  { "email": "phu3@gmail.com", "password": "12345","name":"Nga" },
+  { "email": "phu4@gmail.com", "password": "12345","name":"phuong" },
   { "email": "phu5@gmail.com", "password": "12345","name":"Nhi" },
-  { "email": "phu6@gmail.com", "password": "12345","name":"Dung" },
+  { "email": "phu6@gmail.com", "password": "12345","name":"dung" },
   { "email": "phu7@gmail.com", "password": "12345","name":"Anh" }
 ]
