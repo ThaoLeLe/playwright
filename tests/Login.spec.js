@@ -15,23 +15,12 @@ for (const invoice of invoices) {
         if (isPleaseWaitVisible) {
           console.log('Trang hiện hàng chờ của hệ thống đã được hiển thị.');
         } else {
-          console.log('Không tìm thấy trang thanh toán hay trang hàng chờ.');
+          console.error('Không tìm thấy trang thanh toán hay trang hàng chờ.');
         }
       }
     } catch (e) {
-      console.log('Đã xảy ra lỗi: ', e);
+      console.error('Đã xảy ra lỗi: ', e);
     }
-
-    // try {
-    //   // Kiểm tra xem biểu mẫu với id="payForm" có tồn tại trên trang hay không
-    //   await page.waitForSelector('form#payForm', { timeout: 5000 });
-    //   console.log('Trang thanh toán đã được hiển thị.');
-    // } catch (e) {
-    //   console.log('Không tìm thấy biểu mẫu thanh toán.');
-    //   await page.waitForSelector('//h3[contains(text(),"PLEASE WAIT")]', { timeout: 5000 });
-    // }
-    
-    //verify page load have //form[@id="payForm"]
 
 
    
