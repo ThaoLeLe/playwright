@@ -6,17 +6,21 @@ jobs:
   test:
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: true  # This ensures that if any job in the matrix fails, the workflow stops immediately
+      fail-fast: true
+      matrix:
+        batch: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50] # 50 batches for 1000 invoices
     steps:
       - uses: actions/checkout@v2
+
       - name: Install dependencies
         run: npm install
+
       - name: Set up Node.js
-        uses: actions/setup-node@v1 
+        uses: actions/setup-node@v1
         with:
           node-version: 18
     
-      - name: Cache playwright
+      - name: Cache Playwright
         id: cache-playwright    
         uses: actions/cache@v2
         with:
@@ -28,12 +32,11 @@ jobs:
       - name: Install Playwright and cache it
         run: npx playwright install
         
+      - name: Run split script
+        run: node split-invoices.js
+
       - name: Run tests
         run: npm run test
-        if: ${{ !cancelled() }}  # This ensures the step runs only if the job is not cancelled
-
-
-
-
-
-
+        env:
+          INVOICE_BATCH_FILE: resources/invoices/invoice_batch_${{ matrix.batch }}.json
+        if: ${{ !cancelled() }}  
