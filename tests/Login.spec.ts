@@ -1,11 +1,7 @@
 const { test, expect } = require("@playwright/test");
 const invoices = require("../resources/invoices.json");
 
-var information = {
-  page_success: 0,
-  waiting: 0,
-  error: 0,
-};
+
 for (const invoice of invoices) {
   test(`Test with invoice ${invoice.invoice_identification}`, async function ({
     page,
@@ -13,6 +9,12 @@ for (const invoice of invoices) {
     await page.goto(invoice.url, { timeout: 100000 });
     //wait 5 seconds
     try {
+
+      let information = {
+        page_success: 0,
+        waiting: 0,
+        error: 0,
+      };
       
 
       const isPleaseWaitVisible = await page.isVisible(
