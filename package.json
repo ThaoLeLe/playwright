@@ -8,7 +8,6 @@
     "test:headed": "npx playwright test --headed",
     "test:ui": "npx playwright test --ui",
     "generate:account": "node generate-account.js"
-    
   },
   "keywords": [],
   "author": "",
@@ -16,5 +15,9 @@
   "devDependencies": {
     "@playwright/test": "^1.43.1",
     "@types/node": "^20.12.8"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "node-fetch": "^3.3.2"
   }
 }
