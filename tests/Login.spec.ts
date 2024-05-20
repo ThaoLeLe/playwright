@@ -13,32 +13,26 @@ for (const invoice of invoices) {
     await page.goto(invoice.url, { timeout: 100000 });
     //wait 5 seconds
     try {
-     
-      // Check if iframe is visible or not
-      const iframe = await page.frameLocator("iframe");
+      
 
-      if (iframe) {
-        console.log("Trang thanh toan");
-        information.page_success++;
+      const isPleaseWaitVisible = await page.isVisible(
+        '//h3[contains(text(),"PLEASE WAIT")]', { timeout: 100000 }
+      );
+      if (isPleaseWaitVisible) {
+        console.log("Trang hang doi");
+        information.waiting++;
+      } else {
+          const iframe = await page.frameLocator("iframe");
+          if (iframe) {
+            console.log("Trang thanh toan");
+            information.page_success++;
+          } else {
+            console.error("Trang loi");
+            information.error++;
+          }
       }
-       else {
-        // Nếu không tìm thấy biểu mẫu thanh toán, kiểm tra trang "PLEASE WAIT"
-        const isPleaseWaitVisible = await page.isVisible(
-          '//h3[contains(text(),"PLEASE WAIT")]',
-          { timeout: 100000 }
-        );
-        if (isPleaseWaitVisible) {
-          console.log("Trang hang doi");
-          const content = await page.textContent("p#index");
-          information.waiting++;
-        } else {
-          console.error("Trang loi");
-          information.error++;
-        }
 
-      }
       console.log(`Information: ${JSON.stringify(information)}`);
-
     } catch (e) {
       console.error("Đã xảy ra lỗi: ", e);
     }
