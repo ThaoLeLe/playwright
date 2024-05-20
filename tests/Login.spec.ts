@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 // INVOICE_BATCH_FILE is environment variable
-const invoices = require(`../resources/invoices/${process.env.INVOICE_BATCH_FILE}`);
+const invoices = require(`./resources/invoices/${process.env.INVOICE_BATCH_FILE}`);
 // Shared variable to aggregate results
 const aggregatedInformation = {
   page_success: 0,
@@ -8,7 +8,6 @@ const aggregatedInformation = {
   error: 0,
 };
 
-test.describe(`Test with invoice batch ${process.env.INVOICE_BATCH_FILE}`, () => {
 // Iterate over invoices and create tests
 for (const invoice of invoices) {
   test(`Test with invoice ${invoice.invoice_identification}`, async ({ page }) => {
@@ -54,11 +53,4 @@ for (const invoice of invoices) {
   });
 }
 
-})
 
-
-
-// After all tests have run, output the aggregated information
-test.afterAll(() => {
-  console.log(`Aggregated Information: ${JSON.stringify(aggregatedInformation)}`);
-});
