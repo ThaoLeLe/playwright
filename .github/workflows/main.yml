@@ -19,6 +19,15 @@ jobs:
         with:
           node-version: 18
 
+      - name: Cache node modules
+        id: cache_node_modules
+        uses: actions/cache@v2
+        with:
+          path: node_modules
+          key: ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
+          restore-keys: |
+            ${{ runner.os }}-node-modules-${{ hashFiles('**/package-lock.json') }}
+
       - name: Install dependencies
         run: npm install
 
@@ -37,4 +46,6 @@ jobs:
       - name: Run tests
         run: npm run test
         env:
-          INVOICE_BATCH_FILE: invoice_batch_${{ inputs.batch }}.json
+          INVOICE_BATCH_FILE: invoice_batch_${{ github.event.inputs.batch }}.json
+          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
+          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
