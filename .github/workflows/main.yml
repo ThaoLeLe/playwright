@@ -1,42 +1,40 @@
-name: Playwright CI
+name: Playwright CI Base
+
 on:
-  workflow_dispatch:
+  workflow_call:
+    inputs:
+      batch:
+        required: true
+        type: number
 
 jobs:
   test:
     runs-on: ubuntu-latest
-    strategy:
-      fail-fast: true
-      matrix:
-        batch: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50] # 50 batches for 1000 invoices
+
     steps:
       - uses: actions/checkout@v2
-
-      - name: Install dependencies
-        run: npm install
 
       - name: Set up Node.js
         uses: actions/setup-node@v1
         with:
           node-version: 18
-    
+
+      - name: Install dependencies
+        run: npm install
+
       - name: Cache Playwright
-        id: cache-playwright    
+        id: cache-playwright
         uses: actions/cache@v2
         with:
           path: ~/.cache/ms-playwright
           key: ${{ runner.os }}-playwright
           restore-keys: |
-            ${{ runner.os }}-playwright 
+            ${{ runner.os }}-playwright
 
-      - name: Install Playwright and cache it
+      - name: Install Playwright
         run: npx playwright install
-        
-      - name: Run split script
-        run: node split-invoices.js
 
       - name: Run tests
         run: npm run test
         env:
-          INVOICE_BATCH_FILE: invoice_batch_${{ matrix.batch }}.json
-        if: ${{ !cancelled() }}  
+          INVOICE_BATCH_FILE: invoice_batch_${{ inputs.batch }}.json
