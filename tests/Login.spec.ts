@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 // INVOICE_BATCH_FILE is environment variable
-const invoices = require(`./resources/invoices/${process.env.INVOICE_BATCH_FILE}`);
+const invoices = require(`../resources/invoices/${process.env.INVOICE_BATCH_FILE}`);
 // Shared variable to aggregate results
 const aggregatedInformation = {
   page_success: 0,
