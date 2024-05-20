@@ -38,5 +38,5 @@ jobs:
       - name: Run tests
         run: npm run test
         env:
-          INVOICE_BATCH_FILE: resources/invoices/invoice_batch_${{ matrix.batch }}.json
+          INVOICE_BATCH_FILE: invoice_batch_${{ matrix.batch }}.json
         if: ${{ !cancelled() }}  
