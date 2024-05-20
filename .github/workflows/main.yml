@@ -1,7 +1,7 @@
 name: Playwright CI Base
 
 on:
-  workflow_call:
+  workflow_dispatch:
     inputs:
       batch:
         required: true
