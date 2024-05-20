@@ -24,12 +24,18 @@ for (const invoice of invoices) {
       } else {
           const iframe = await page.frameLocator("iframe");
           if (iframe) {
-            console.log("Trang thanh toan");
-            information.page_success++;
-          } else {
-            console.error("Trang loi");
-            information.error++;
-          }
+            const payForm = await iframe.locator("#payForm");
+            if (payForm) {
+              console.log("Trang thanh toan", payForm);
+              information.page_success++;
+            } else {
+              console.error("Trang loi");
+              information.error++;
+            }
+        }else{
+          console.error("Trang loi");
+          information.error++;
+        }
       }
 
       console.log(`Information: ${JSON.stringify(information)}`);
