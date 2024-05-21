@@ -57,9 +57,7 @@ for (const invoice of invoices) {
 
       
         if (payForm) {
-          console.log("Trang thanh toan", payForm);
           await sendSlackMessage(`Trang thanh toan: ${invoice.url} success`);
-
           information.page_success++;
         } else {
           console.error("Trang loi");
