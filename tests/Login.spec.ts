@@ -1,6 +1,6 @@
 const { test, expect } = require("@playwright/test");
 // INVOICE_BATCH_FILE is environment variable
-const invoices = require(`../resources/invoices/${process.env.INVOICE_BATCH_FILE}`);
+const invoices = require(`../resources/invoices`);
 // Shared variable to aggregate results
 
 // Iterate over invoices and create tests
@@ -9,7 +9,6 @@ for (const invoice of invoices) {
     page,
   }) => {
     await page.goto(invoice.url, { timeout: 100000 });
-
 
     try {
       const information = {
@@ -20,7 +19,6 @@ for (const invoice of invoices) {
 
       await page.waitForTimeout(3000);
 
-
       const isPleaseWaitVisible = await page.isVisible(
         '//h3[contains(text(),"PLEASE WAIT")]',
         { timeout: 100000 }
@@ -29,13 +27,16 @@ for (const invoice of invoices) {
         console.log("Trang hang doi");
         information.waiting++;
       } else {
-        const payForm = await page.frameLocator('#payForm');
-
-        if (payForm) {
-          information.page_success++;
-        } else {
-          console.error("Trang loi");
-          information.error++;
+        const iframe = await page.frameLocator("iframe");
+        if (iframe) {
+          const payForm = await iframe.locator("#payForm");
+          if (payForm) {
+            console.log("Trang thanh toan", payForm);
+            information.page_success++;
+          } else {
+            console.error("Trang loi");
+            information.error++;
+          }
         }
       }
       console.log(`Information: ${JSON.stringify(information)}`);
