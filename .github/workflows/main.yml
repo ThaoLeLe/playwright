@@ -2,10 +2,6 @@ name: Playwright CI Base
 
 on:
   workflow_dispatch:
-    inputs:
-      batch:
-        required: true
-        type: number
 
 jobs:
   test:
@@ -45,7 +41,3 @@ jobs:
 
       - name: Run tests
         run: npm run test
-        env:
-          INVOICE_BATCH_FILE: invoice_batch_${{ github.event.inputs.batch }}.json
-          SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
-          SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
