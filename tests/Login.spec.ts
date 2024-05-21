@@ -10,5 +10,12 @@ for (const invoice of invoices) {
   }) => {
     await page.goto(invoice.url, { timeout: 100000 });
 
+    // wait for page to load
+    await page.waitForLoadState("networkidle");
+    await page.waitForLoadState("networkidle");
+    await page.waitForLoadState("networkidle");
+
+    
+
   });
 }
