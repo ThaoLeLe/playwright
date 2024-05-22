@@ -2,6 +2,10 @@ name: Playwright CI Base
 
 on:
   workflow_dispatch:
+    inputs:
+      batch:
+        description: 'Batch number'
+        required: true
 
 jobs:
   test:
@@ -41,5 +45,7 @@ jobs:
         run: npx playwright install
 
       - name: Run tests
-        run: npm run test
+        run: npm run test 
+        env:
+          INVOICE_BATCH_FILE: ${{ github.event.inputs.batch }}
         if: ${{ !cancelled() }}
