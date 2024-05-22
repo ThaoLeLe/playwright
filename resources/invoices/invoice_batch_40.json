@@ -7,7 +7,7 @@
     "description": "HKFA - You have registered for the course 8U6-05 (75.00 HKD), and 20.00 HKD administration fee",
     "amount": 95,
     "invoice_identification": "354356239",
-    "invoice_number": "HKFA-4562",
+    "invoice_number": "HKFA-4562-testing",
     "invoice_date": "2022-06-23T04:12:16.000Z",
     "secret_key": "44de0f7a905a6b28cc3c1ba8810f4679dded6671",
     "status": "Accepted",
@@ -18,7 +18,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1063&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4562%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D44de0f7a905a6b28cc3c1ba8810f4679dded6671%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D44de0f7a905a6b28cc3c1ba8810f4679dded6671"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1063&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4562-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D44de0f7a905a6b28cc3c1ba8810f4679dded6671%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D44de0f7a905a6b28cc3c1ba8810f4679dded6671"
   },
   {
     "id": 1064,
@@ -28,7 +28,7 @@
     "description": "HKFA - You have registered for the course 2U10-10 (75.00 HKD), and 20.00 HKD administration fee",
     "amount": 95,
     "invoice_identification": "354356264",
-    "invoice_number": "HKFA-4563",
+    "invoice_number": "HKFA-4563-testing",
     "invoice_date": "2022-06-23T04:12:17.000Z",
     "secret_key": "1ac523299d9f2466e78ce14da7067ebe395034f2",
     "status": "Accepted",
@@ -39,7 +39,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1064&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4563%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D1ac523299d9f2466e78ce14da7067ebe395034f2%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D1ac523299d9f2466e78ce14da7067ebe395034f2"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1064&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4563-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D1ac523299d9f2466e78ce14da7067ebe395034f2%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D1ac523299d9f2466e78ce14da7067ebe395034f2"
   },
   {
     "id": 1066,
@@ -49,7 +49,7 @@
     "description": "HKFA -  have registered for the course P-01 (120.00 HKD), and 20.00 HKD administration fee",
     "amount": 140,
     "invoice_identification": "354356254",
-    "invoice_number": "HKFA-4565",
+    "invoice_number": "HKFA-4565-testing",
     "invoice_date": "2022-06-23T04:12:29.000Z",
     "secret_key": "2b14e9c960e57fae25aba3f386807369cfd9cf92",
     "status": "Accepted",
@@ -60,7 +60,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1066&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D140%26orderRef%3DHKFA-4565%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D2b14e9c960e57fae25aba3f386807369cfd9cf92%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D2b14e9c960e57fae25aba3f386807369cfd9cf92"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1066&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D140%26orderRef%3DHKFA-4565-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D2b14e9c960e57fae25aba3f386807369cfd9cf92%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D2b14e9c960e57fae25aba3f386807369cfd9cf92"
   },
   {
     "id": 1067,
@@ -70,7 +70,7 @@
     "description": "HKFA -  have registered for the course P-08 (120.00 HKD), and 20.00 HKD administration fee",
     "amount": 140,
     "invoice_identification": "354356389",
-    "invoice_number": "HKFA-4566",
+    "invoice_number": "HKFA-4566-testing",
     "invoice_date": "2022-06-23T04:12:41.000Z",
     "secret_key": "4eb6cca308c3f0911fb01e0cc530a21ce9e4fd3f",
     "status": "Accepted",
@@ -81,7 +81,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1067&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D140%26orderRef%3DHKFA-4566%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D4eb6cca308c3f0911fb01e0cc530a21ce9e4fd3f%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D4eb6cca308c3f0911fb01e0cc530a21ce9e4fd3f"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1067&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D140%26orderRef%3DHKFA-4566-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D4eb6cca308c3f0911fb01e0cc530a21ce9e4fd3f%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D4eb6cca308c3f0911fb01e0cc530a21ce9e4fd3f"
   },
   {
     "id": 1069,
@@ -91,7 +91,7 @@
     "description": "HKFA - You have registered for the course 2U8-06 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356340",
-    "invoice_number": "HKFA-4568",
+    "invoice_number": "HKFA-4568-testing",
     "invoice_date": "2022-06-23T04:13:00.000Z",
     "secret_key": "c0a024bc8fbff0e5a003f51ec63d2ebd6a4a36b5",
     "status": "Accepted",
@@ -102,7 +102,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1069&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4568%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3Dc0a024bc8fbff0e5a003f51ec63d2ebd6a4a36b5%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3Dc0a024bc8fbff0e5a003f51ec63d2ebd6a4a36b5"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1069&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4568-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3Dc0a024bc8fbff0e5a003f51ec63d2ebd6a4a36b5%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3Dc0a024bc8fbff0e5a003f51ec63d2ebd6a4a36b5"
   },
   {
     "id": 1070,
@@ -112,7 +112,7 @@
     "description": "HKFA - You have registered for the course 8U10-03 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354357281",
-    "invoice_number": "HKFA-4569",
+    "invoice_number": "HKFA-4569-testing",
     "invoice_date": "2022-06-23T04:13:00.000Z",
     "secret_key": "7bec663eb2f00b92a512804db277c48e75a19889",
     "status": "Accepted",
@@ -123,7 +123,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1070&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4569%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D7bec663eb2f00b92a512804db277c48e75a19889%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D7bec663eb2f00b92a512804db277c48e75a19889"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1070&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4569-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D7bec663eb2f00b92a512804db277c48e75a19889%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D7bec663eb2f00b92a512804db277c48e75a19889"
   },
   {
     "id": 1071,
@@ -133,7 +133,7 @@
     "description": "HKFA - You have registered for the course 2GU10-01 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356395",
-    "invoice_number": "HKFA-4570",
+    "invoice_number": "HKFA-4570-testing",
     "invoice_date": "2022-06-23T04:13:02.000Z",
     "secret_key": "856fc65cc8649208573f45e3b1a14679d802d82a",
     "status": "Accepted",
@@ -144,7 +144,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1071&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4570%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D856fc65cc8649208573f45e3b1a14679d802d82a%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D856fc65cc8649208573f45e3b1a14679d802d82a"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1071&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4570-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D856fc65cc8649208573f45e3b1a14679d802d82a%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D856fc65cc8649208573f45e3b1a14679d802d82a"
   },
   {
     "id": 1072,
@@ -154,7 +154,7 @@
     "description": "HKFA - You have registered for the course 3U10-05 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356435",
-    "invoice_number": "HKFA-4571",
+    "invoice_number": "HKFA-4571-testing",
     "invoice_date": "2022-06-23T04:13:11.000Z",
     "secret_key": "3880aedfd6e610a7ff4b7efd92a276f5722997d5",
     "status": "Accepted",
@@ -165,7 +165,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1072&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4571%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D3880aedfd6e610a7ff4b7efd92a276f5722997d5%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D3880aedfd6e610a7ff4b7efd92a276f5722997d5"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1072&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4571-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D3880aedfd6e610a7ff4b7efd92a276f5722997d5%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D3880aedfd6e610a7ff4b7efd92a276f5722997d5"
   },
   {
     "id": 1073,
@@ -175,7 +175,7 @@
     "description": "HKFA - You have registered for the course 2U6-08 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356598",
-    "invoice_number": "HKFA-4572",
+    "invoice_number": "HKFA-4572-testing",
     "invoice_date": "2022-06-23T04:13:12.000Z",
     "secret_key": "34ed9e73d380296ef96d7414ffcc9493c54a37eb",
     "status": "Accepted",
@@ -186,7 +186,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1073&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4572%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D34ed9e73d380296ef96d7414ffcc9493c54a37eb%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D34ed9e73d380296ef96d7414ffcc9493c54a37eb"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1073&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4572-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D34ed9e73d380296ef96d7414ffcc9493c54a37eb%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D34ed9e73d380296ef96d7414ffcc9493c54a37eb"
   },
   {
     "id": 1074,
@@ -196,7 +196,7 @@
     "description": "HKFA - You have registered for the course 2U8-13 (75.00 HKD), and 20.00 HKD administration fee",
     "amount": 95,
     "invoice_identification": "354356392",
-    "invoice_number": "HKFA-4573",
+    "invoice_number": "HKFA-4573-testing",
     "invoice_date": "2022-06-23T04:13:18.000Z",
     "secret_key": "90c2ebcb81ae071daab310e5535016f6fefca0c6",
     "status": "Accepted",
@@ -207,7 +207,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1074&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4573%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D90c2ebcb81ae071daab310e5535016f6fefca0c6%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D90c2ebcb81ae071daab310e5535016f6fefca0c6"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1074&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4573-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D90c2ebcb81ae071daab310e5535016f6fefca0c6%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D90c2ebcb81ae071daab310e5535016f6fefca0c6"
   },
   {
     "id": 1076,
@@ -217,7 +217,7 @@
     "description": "HKFA - You have registered for the course 6U10-07 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356432",
-    "invoice_number": "HKFA-4575",
+    "invoice_number": "HKFA-4575-testing",
     "invoice_date": "2022-06-23T04:13:30.000Z",
     "secret_key": "942130ddb3bf9ef177ad3b4937c5d6085ea63e0d",
     "status": "Accepted",
@@ -228,7 +228,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1076&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4575%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D942130ddb3bf9ef177ad3b4937c5d6085ea63e0d%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D942130ddb3bf9ef177ad3b4937c5d6085ea63e0d"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1076&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4575-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D942130ddb3bf9ef177ad3b4937c5d6085ea63e0d%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D942130ddb3bf9ef177ad3b4937c5d6085ea63e0d"
   },
   {
     "id": 1077,
@@ -238,7 +238,7 @@
     "description": "HKFA - You have registered for the course 6U14-01 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356384",
-    "invoice_number": "HKFA-4576",
+    "invoice_number": "HKFA-4576-testing",
     "invoice_date": "2022-06-23T04:13:43.000Z",
     "secret_key": "cb3f20c4b459e776f0da4086ed2402ad637f1a49",
     "status": "Accepted",
@@ -249,7 +249,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1077&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4576%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3Dcb3f20c4b459e776f0da4086ed2402ad637f1a49%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3Dcb3f20c4b459e776f0da4086ed2402ad637f1a49"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1077&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4576-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3Dcb3f20c4b459e776f0da4086ed2402ad637f1a49%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3Dcb3f20c4b459e776f0da4086ed2402ad637f1a49"
   },
   {
     "id": 1078,
@@ -259,7 +259,7 @@
     "description": "HKFA - You have registered for the course 6U8-02 (75.00 HKD), and 20.00 HKD administration fee",
     "amount": 95,
     "invoice_identification": "354356660",
-    "invoice_number": "HKFA-4577",
+    "invoice_number": "HKFA-4577-testing",
     "invoice_date": "2022-06-23T04:13:57.000Z",
     "secret_key": "3fc1c01bb27312f2ed6058f23a552f5820ddda2a",
     "status": "Accepted",
@@ -270,7 +270,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1078&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4577%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D3fc1c01bb27312f2ed6058f23a552f5820ddda2a%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D3fc1c01bb27312f2ed6058f23a552f5820ddda2a"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1078&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4577-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D3fc1c01bb27312f2ed6058f23a552f5820ddda2a%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D3fc1c01bb27312f2ed6058f23a552f5820ddda2a"
   },
   {
     "id": 1079,
@@ -280,7 +280,7 @@
     "description": "HKFA - You have registered for the course 1U8-08 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356448",
-    "invoice_number": "HKFA-4578",
+    "invoice_number": "HKFA-4578-testing",
     "invoice_date": "2022-06-23T04:13:59.000Z",
     "secret_key": "5b30dc23a1e003addbe4d1e88de3ef8670881275",
     "status": "Accepted",
@@ -291,7 +291,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1079&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4578%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D5b30dc23a1e003addbe4d1e88de3ef8670881275%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D5b30dc23a1e003addbe4d1e88de3ef8670881275"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1079&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4578-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D5b30dc23a1e003addbe4d1e88de3ef8670881275%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D5b30dc23a1e003addbe4d1e88de3ef8670881275"
   },
   {
     "id": 1080,
@@ -301,7 +301,7 @@
     "description": "HKFA - You have registered for the course 7U10-03 (75.00 HKD), and 20.00 HKD administration fee",
     "amount": 95,
     "invoice_identification": "354356553",
-    "invoice_number": "HKFA-4579",
+    "invoice_number": "HKFA-4579-testing",
     "invoice_date": "2022-06-23T04:14:13.000Z",
     "secret_key": "874cb546b909d04cf478cbdbb3d9aed30d204ad2",
     "status": "Accepted",
@@ -312,7 +312,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1080&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4579%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D874cb546b909d04cf478cbdbb3d9aed30d204ad2%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D874cb546b909d04cf478cbdbb3d9aed30d204ad2"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1080&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4579-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D874cb546b909d04cf478cbdbb3d9aed30d204ad2%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D874cb546b909d04cf478cbdbb3d9aed30d204ad2"
   },
   {
     "id": 1081,
@@ -322,7 +322,7 @@
     "description": "HKFA - You have registered for the course 6U10-01 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356711",
-    "invoice_number": "HKFA-4580",
+    "invoice_number": "HKFA-4580-testing",
     "invoice_date": "2022-06-23T04:14:17.000Z",
     "secret_key": "b29746a1896dbdec43dbeff06dff130528a8cb96",
     "status": "Accepted",
@@ -333,7 +333,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1081&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4580%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3Db29746a1896dbdec43dbeff06dff130528a8cb96%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3Db29746a1896dbdec43dbeff06dff130528a8cb96"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1081&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4580-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3Db29746a1896dbdec43dbeff06dff130528a8cb96%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3Db29746a1896dbdec43dbeff06dff130528a8cb96"
   },
   {
     "id": 1082,
@@ -343,7 +343,7 @@
     "description": "HKFA - You have registered for the course 2U6-06 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356519",
-    "invoice_number": "HKFA-4581",
+    "invoice_number": "HKFA-4581-testing",
     "invoice_date": "2022-06-23T04:14:27.000Z",
     "secret_key": "0fffe13ef0eb77d84e2b1917728fcd6f011169c1",
     "status": "Accepted",
@@ -354,7 +354,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1082&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4581%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D0fffe13ef0eb77d84e2b1917728fcd6f011169c1%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D0fffe13ef0eb77d84e2b1917728fcd6f011169c1"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1082&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4581-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3D0fffe13ef0eb77d84e2b1917728fcd6f011169c1%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3D0fffe13ef0eb77d84e2b1917728fcd6f011169c1"
   },
   {
     "id": 1083,
@@ -364,7 +364,7 @@
     "description": "HKFA - You have registered for the course 7U6-03 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356522",
-    "invoice_number": "HKFA-4582",
+    "invoice_number": "HKFA-4582-testing",
     "invoice_date": "2022-06-23T04:14:29.000Z",
     "secret_key": "e04c1ab621668e596bc80e1876f44baf548a5b7e",
     "status": "Accepted",
@@ -375,7 +375,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1083&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4582%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3De04c1ab621668e596bc80e1876f44baf548a5b7e%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3De04c1ab621668e596bc80e1876f44baf548a5b7e"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1083&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4582-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3De04c1ab621668e596bc80e1876f44baf548a5b7e%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3De04c1ab621668e596bc80e1876f44baf548a5b7e"
   },
   {
     "id": 1084,
@@ -385,7 +385,7 @@
     "description": "HKFA - You have registered for the course 4U12-01 (75.00 HKD), 35.00 HKD shipping fee, and 20.00 HKD administration fee",
     "amount": 130,
     "invoice_identification": "354356696",
-    "invoice_number": "HKFA-4583",
+    "invoice_number": "HKFA-4583-testing",
     "invoice_date": "2022-06-23T04:14:31.000Z",
     "secret_key": "eb613e0e95ed3a8b73e9eef6cf0d28f325ae68dc",
     "status": "Accepted",
@@ -396,7 +396,7 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1084&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4583%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3Deb613e0e95ed3a8b73e9eef6cf0d28f325ae68dc%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3Deb613e0e95ed3a8b73e9eef6cf0d28f325ae68dc"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1084&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D130%26orderRef%3DHKFA-4583-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3Deb613e0e95ed3a8b73e9eef6cf0d28f325ae68dc%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3Deb613e0e95ed3a8b73e9eef6cf0d28f325ae68dc"
   },
   {
     "id": 1085,
@@ -406,7 +406,7 @@
     "description": "HKFA - You have registered for the course 5U8-02 (75.00 HKD), and 20.00 HKD administration fee",
     "amount": 95,
     "invoice_identification": "354356494",
-    "invoice_number": "HKFA-4584",
+    "invoice_number": "HKFA-4584-testing",
     "invoice_date": "2022-06-23T04:14:32.000Z",
     "secret_key": "cca856e015f09cf7cbc779b71cda66370ebeaba6",
     "status": "Accepted",
@@ -417,6 +417,6 @@
     "note": null,
     "metadata": null,
     "access_at": null,
-    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1085&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4584%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3Dcca856e015f09cf7cbc779b71cda66370ebeaba6%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3Dcca856e015f09cf7cbc779b71cda66370ebeaba6"
+    "url": "https://www.ezactive.com/hkfa_websocket/payment?invoice_id=1085&email=thao@gmail.com&url=https%3A%2F%2Ftest.paydollar.com%2Fb2cDemo%2Feng%2Fpayment%2FpayForm.jsp%3FmerchantId%3D88156613%26amount%3D95%26orderRef%3DHKFA-4584-testing%26currCode%3D344%26payType%3DN%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FsuccessfulPaymentAction%3Fkey%3Dcca856e015f09cf7cbc779b71cda66370ebeaba6%26https%3A%2F%2Fwww.ezactive.com%2Fhkfa_staging%2Fserver%2Fclient%2Fpayment%2FcancelPaymentAction%3Fkey%3Dcca856e015f09cf7cbc779b71cda66370ebeaba6"
   }
 ]
