@@ -20,5 +20,9 @@ for (const invoice of invoices) {
     
     console.log("inv_info", inv_info);
 
+    // delay 100s
+    await page.waitForTimeout(100000);
+
+
   });
 }
