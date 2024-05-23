@@ -8,7 +8,7 @@ for (const invoice of invoices) {
   test(`Test with invoice ${invoice.invoice_identification}`, async ({
     page,
   }) => {
-    await page.goto("https://www.ezactive.com/hkfa_websocket/health-check", { timeout: 100000 });
+    await page.goto(invoice.url, { timeout: 100000 });
 
     const inv_info = {
       invoice_id: invoice.id,
