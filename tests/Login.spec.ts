@@ -8,7 +8,7 @@ for (const invoice of invoices) {
   test(`Test with invoice ${invoice.invoice_identification}`, async ({
     page,
   }) => {
-    await page.goto("https://ezactive.com", { timeout: 100000 });
+    await page.goto("https://www.ezactive.com/hkfa_websocket", { timeout: 100000 });
 
     await expect(page).toHaveURL(invoice.url);
 
