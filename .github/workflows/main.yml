@@ -70,9 +70,12 @@ jobs:
 
       - name: Split invoices
         run: npm run split
+      
+      - name: Run Playwright tests payment
+        run: npx playwright test tests/Payment2.spec.ts 
 
       - name: Run tests
-        run: npm run test 
+        run: npm run test
         env:
           INVOICE_BATCH_FILE: ${{ matrix.batch }}
         if: ${{ !cancelled() }}

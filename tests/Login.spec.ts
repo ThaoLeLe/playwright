@@ -17,6 +17,25 @@ for (const invoice of invoices) {
     }
     
     console.log("inv_info", inv_info);
+    //wait 10s
+   await page.waitForTimeout(5000);
+   //verify have Please wait text
+  
+    await page.waitForSelector('text="PLEASE WAIT"', { timeout: 5000 });
+
+    // Nếu có text "PLEASE WAIT", thực hiện các hành động tiếp theo
+    console.log('Text "PLEASE WAIT" được tìm thấy.');
+
+    // Thực hiện các hành động tiếp theo ở đây
+
+  
+
+    // Chuyển hướng đến trang lỗi
+    
+  
+
+    
+
 
   });
 }
