@@ -8,7 +8,7 @@ for (const invoice of invoices) {
   test(`Test with invoice ${invoice.invoice_identification}`, async ({
     page,
   }) => {
-    await page.goto(invoice.url, { timeout: 100000 });
+    await page.goto(invoice.apiUrl);
 
     const inv_info = {
       invoice_id: invoice.id,
@@ -18,9 +18,8 @@ for (const invoice of invoices) {
     
     console.log("inv_info", inv_info);
 
-    // delay 100s
-    await page.waitForTimeout(100000);
-
-
   });
 }
+
+
+

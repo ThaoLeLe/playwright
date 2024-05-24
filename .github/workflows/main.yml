@@ -3,15 +3,39 @@ name: Playwright CI Base
 on:
   workflow_dispatch:
     inputs:
-      batch:
-        description: 'Batch number'
+      total_batches:
+        description: 'Total number of batches'
         required: true
+        default: '150'
 
 jobs:
+  generate-matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 18
+
+      - name: Generate matrix
+        run: |
+          node generate-matrix.js ${{ github.event.inputs.total_batches }}
+          echo "::set-output name=matrix::$(cat matrix.json)"
+        id: set-matrix
+
   test:
+    needs: generate-matrix
     runs-on: ubuntu-latest
     strategy:
       fail-fast: true
+      matrix:
+        batch: ${{ fromJson(needs.generate-matrix.outputs.matrix) }}
+
     steps:
       - uses: actions/checkout@v2
 
@@ -50,5 +74,5 @@ jobs:
       - name: Run tests
         run: npm run test 
         env:
-          INVOICE_BATCH_FILE: ${{ github.event.inputs.batch }}
+          INVOICE_BATCH_FILE: ${{ matrix.batch }}
         if: ${{ !cancelled() }}
