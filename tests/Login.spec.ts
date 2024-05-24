@@ -8,7 +8,7 @@ for (const invoice of invoices) {
   test(`Test with invoice ${invoice.invoice_identification}`, async ({
     page,
   }) => {
-    await page.goto(invoice.apiUrl);
+    await page.goto(invoice.url);
 
     const inv_info = {
       invoice_id: invoice.id,
